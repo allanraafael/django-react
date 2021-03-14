@@ -56,7 +56,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'django_react.wsgi.application'
+WSGI_APPLICATION = 'backend.wsgi.application'
 
 DATABASES = {
     'default': {
