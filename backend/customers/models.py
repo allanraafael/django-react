@@ -6,7 +6,7 @@ class Customer(models.Model):
     last_name = models.CharField("Last name", max_length=255)
     email = models.EmailField()
     phone = models.CharField(max_length=20)
-    address =  models.TextField(blank=True, null=True)
+    address = models.TextField(blank=True, null=True)
     description = models.TextField(blank=True, null=True)
     createdAt = models.DateTimeField("Created At", auto_now_add=True)
 
