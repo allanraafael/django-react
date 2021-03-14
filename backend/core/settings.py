@@ -17,7 +17,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
-    'customers'
+    'backend.customers'
 ]
 
 MIDDLEWARE = [
@@ -37,7 +37,7 @@ CORS_ORIGIN_WHITELIST = (
     'https://localhost:3000',
 )
 
-ROOT_URLCONF = 'backend.urls'
+ROOT_URLCONF = 'backend.core.urls'
 
 TEMPLATES = [
     {
@@ -56,7 +56,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'backend.wsgi.application'
+WSGI_APPLICATION = 'backend.core.wsgi.application'
 
 DATABASES = {
     'default': {
