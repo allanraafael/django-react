@@ -37,7 +37,7 @@ CORS_ORIGIN_WHITELIST = (
     'https://localhost:3000',
 )
 
-ROOT_URLCONF = 'django_react.urls'
+ROOT_URLCONF = 'backend.urls'
 
 TEMPLATES = [
     {
